@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body{
+    background-color: #919191;
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 10%;
+    height: 20%;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 230px;
+    color: white;
+    font-family: 'Open Sans';
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: inline-flex;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+#portfolio {
+    padding: 40px;
+    margin: 0 auto;
+}
+.gallery-title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    padding: 40px 20px 60px;
+}
+.row div img{
+    width: 365px;
+    height: 300px;
+    image-resolution: auto;
+}
+
+.filter-button{
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.filter-button:hover{
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.btn-default:active .filter-button:active{
+    background-color: red;
+    color: white;
+}
+
+.gallery_product{
+    margin-bottom: 30px;
+}
