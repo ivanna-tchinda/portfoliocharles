@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body{
+    background-color: #919191;
+    font-family: 'Open Sans';
+}
+.logo{
+    width: 10%;
+    height: 20%;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 230px;
+    color: white;
+    font-family: 'Open Sans';
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: inline-flex;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.prices div{
+    height: 350px;
+    width: 300px;
+    margin: 40px;
+    margin-left: 140px;
+    border-style: solid;
+    border-color: white;
+    display: inline-flex;
+    color: white;
+    padding: 0;
+}
+
+.prices .content{
+    display: block;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    
+}
+.prices .content:hover{
+    background-color: white;
+    color: #919191;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.prices .content h3{
+    font-weight: 300;
+}
+.prices .content .total{
+    position: relative;
+    top: 30px;
+}
+
+
+
